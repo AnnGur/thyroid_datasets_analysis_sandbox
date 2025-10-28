@@ -1,0 +1,3092 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<MINiML
+   xmlns="http://www.ncbi.nlm.nih.gov/geo/info/MINiML"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd"
+   version="0.5.0" >
+
+  <Contributor iid="contrib1">
+    <Person><First>Hans-Juergen</First><Last>Schulten</Last></Person>
+    <Email>hschulten@kau.edu.sa</Email>
+    <Phone>+966534355430</Phone>
+    <Laboratory>Affymetrix Service Unit</Laboratory>
+    <Department>Center of Excellence in Genomic Medicine Research</Department>
+    <Organization>King Abdulaziz University</Organization>
+    <Address>
+      <Line>P.O. Box 80216</Line>
+      <City>Jeddah</City>
+      <Zip-Code>21589</Zip-Code>
+      <Country>Saudi Arabia</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib2">
+    <Organization></Organization>
+    <Email>geo@ncbi.nlm.nih.gov, support@affymetrix.com</Email>
+    <Phone>888-362-2447</Phone>
+    <Organization>Affymetrix, Inc.</Organization>
+    <Address>
+      <City>Santa Clara</City>
+      <State>CA</State>
+      <Zip-Code>95051</Zip-Code>
+      <Country>USA</Country>
+    </Address>
+    <Web-Link>http://www.affymetrix.com/index.affx</Web-Link>
+  </Contributor>
+
+  <Contributor iid="contrib3">
+    <Person><First>Sajjad</First><Last>Karim</Last></Person>
+  </Contributor>
+
+  <Database iid="GEO">
+    <Name>Gene Expression Omnibus (GEO)</Name>
+    <Public-ID>GEO</Public-ID>
+    <Organization>NCBI NLM NIH</Organization>
+    <Web-Link>http://www.ncbi.nlm.nih.gov/geo</Web-Link>
+    <Email>geo@ncbi.nlm.nih.gov</Email>
+  </Database>
+
+  <Platform iid="GPL6244">
+    <Status database="GEO">
+      <Submission-Date>2007-12-05</Submission-Date>
+      <Release-Date>2007-12-05</Release-Date>
+      <Last-Update-Date>2020-03-05</Last-Update-Date>
+    </Status>
+    <Title>[HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]</Title>
+    <Accession database="GEO">GPL6244</Accession>
+    <Technology>in situ oligonucleotide</Technology>
+    <Distribution>commercial</Distribution>
+    <Organism taxid="9606">Homo sapiens</Organism>
+    <Manufacturer>Affymetrix</Manufacturer>
+    <Manufacture-Protocol>
+See manufacturer's web site
+
+    </Manufacture-Protocol>
+    <Description>
+Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html
+
+June 03, 2009: annotation table updated with netaffx build 28
+June 18, 2012: annotation table updated with netaffx build 32
+July 01, 2016: annotation table updated with netaffx build 35
+    </Description>
+    <Web-Link>http://www.affymetrix.com/support/technical/byproduct.affx?product=hugene-1_0-st-v1</Web-Link>
+    <Web-Link>http://www.affymetrix.com/support/technical/libraryfilesmain.affx</Web-Link>
+    <Relation type="Alternative to" target="GPL10063" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10666" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11209" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL13243" comment="Alternative CDF [HuGene10stv1_Hs_ENTREZG_11.0.1]" />
+    <Relation type="Alternative to" target="GPL14010" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL15034" comment="Alternative CDF [HuGene10stv1_Hs_ENTREZG_v14]" />
+    <Relation type="Alternative to" target="GPL15424" comment="alternative CDF [HuGene10stv1_Hs_ENST]" />
+    <Relation type="Alternative to" target="GPL15648" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL15969" comment="Alternative CDF [HuGene1_0_genecentric]" />
+    <Relation type="Alternative to" target="GPL16239" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL16332" comment="Alternative CDF [MMBGX-Ensembl64]" />
+    <Relation type="Alternative to" target="GPL16522" comment="Alternative CDF [HuGene10stv1_Hs_ENTREZG_15.1.0]" />
+    <Relation type="Alternative to" target="GPL16786" comment="Alternative CDF [HuGene10stv1_Hs_ENSG_v13.0.0]" />
+    <Relation type="Alternative to" target="GPL16987" comment="Alternative CDF [GATExplorer_Ensembl v57]" />
+    <Relation type="Alternative to" target="GPL17047" comment="Alternative CDF [HuGene10stv1_Hs_ENTREZG_15.0.0]" />
+    <Relation type="Alternative to" target="GPL17244" comment="Alternative CDF [HuGene10stv1_Hs_ENTREZG_16.0.0]" />
+    <Relation type="Alternative to" target="GPL17556" comment="alternative" />
+    <Relation type="Alternative to" target="GPL17737" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL18401" comment="AltAnalyze probeset-to-Ensembl" />
+    <Relation type="Alternative to" target="GPL18412" comment="Alternative CDF [hugene10stv1_74_030]" />
+    <Relation type="Alternative to" target="GPL18695" comment="alternative CDF[Hugene10st_Hs_ENST_16.0.0]" />
+    <Relation type="Alternative to" target="GPL19145" comment="Alternative CDF [hugene10st_Hs_ENSG_16.0.0]" />
+    <Relation type="Alternative to" target="GPL19433" comment="Alternative CDF [hugene10st_Hs_ENSGvs1500.cdf]" />
+    <Relation type="Alternative to" target="GPL20171" comment="Alternative CDF [hugene10st_Hs_ENTREZG_19.0.0]" />
+    <Relation type="Alternative to" target="GPL23526" comment="Alternative CDF [hugene10st_Hs_ENTREZG_20]" />
+    <Relation type="Alternative to" target="GPL27927" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL28228" comment="Alternative CDF [HuGene10stv1_Hs_REFSEQ_23.0.0]" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID</Name>
+        <Description>transcript_cluster_id </Description>
+        <Link-Prefix>https://www.affymetrix.com/LinkServlet?array=HuGene-1_0-st-v1&amp;probeset=</Link-Prefix>
+      </Column>
+      <Column position="2">
+        <Name>GB_LIST</Name>
+        <Description>GenBank and RefSeq Accessions from mrna_assignment column  </Description>
+        <Link-Prefix>http://www.ncbi.nlm.nih.gov/nuccore/?term=</Link-Prefix>
+        <Link-Delimiter>,</Link-Delimiter>
+      </Column>
+      <Column position="3">
+        <Name>SPOT_ID</Name>
+        <Description>genomic location of the transcript cluster in the version of the genome assembly used at annotation time. Coordinates are standard 1-based (length=stop-start+1).</Description>
+      </Column>
+      <Column position="4">
+        <Name>seqname</Name>
+        <Description>chromosome number</Description>
+      </Column>
+      <Column position="5">
+        <Name>RANGE_GB</Name>
+        <Description>NCBI RefSeq for chromosome of current build</Description>
+      </Column>
+      <Column position="6">
+        <Name>RANGE_STRAND</Name>
+        <Description>strand  (+|-)</Description>
+      </Column>
+      <Column position="7">
+        <Name>RANGE_START</Name>
+        <Description>start  (integer). Coordinates are standard 1-based (length=stop-start+1).</Description>
+      </Column>
+      <Column position="8">
+        <Name>RANGE_STOP</Name>
+        <Description>stop  (integer). Coordinates are standard 1-based (length=stop-start+1).</Description>
+      </Column>
+      <Column position="9">
+        <Name>total_probes</Name>
+        <Description>Total number of probes contained by this transcript cluster.</Description>
+      </Column>
+      <Column position="10">
+        <Name>gene_assignment</Name>
+        <Description>Gene information for each assigned mRNA for mRNAs that corresponds to known genes (multipart).</Description>
+      </Column>
+      <Column position="11">
+        <Name>mrna_assignment</Name>
+        <Description>Description of the public mRNAs that should be detected by the sets within this transcript cluster based on sequence alignment (multipart).</Description>
+      </Column>
+      <Column position="12">
+        <Name>category</Name>
+        <Description>Array design category of the transcript cluster</Description>
+      </Column>
+    <External-Data rows="33297">
+GPL6244-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Platform>
+
+  <Sample iid="GSM1327231">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF wt 1</Title>
+    <Accession database="GEO">GSM1327231</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC without a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: LN-163-11R
+Gene expression data from PTC without a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327231/suppl/GSM1327231_LN-163-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327231/suppl/GSM1327231_LN-163-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327231-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327232">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF wt 2</Title>
+    <Accession database="GEO">GSM1327232</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC without a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-37-13R
+Gene expression data from PTC without a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327232/suppl/GSM1327232_TM-37-13R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327232/suppl/GSM1327232_TM-37-13R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101781" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327232-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327233">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF wt 3</Title>
+    <Accession database="GEO">GSM1327233</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC without a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-158-13R
+Gene expression data from PTC without a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327233/suppl/GSM1327233_TM-158-13R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327233/suppl/GSM1327233_TM-158-13R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101780" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327233-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327234">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF wt 4</Title>
+    <Accession database="GEO">GSM1327234</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC without a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-164-13R
+Gene expression data from PTC without a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327234/suppl/GSM1327234_TM-164-13R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327234/suppl/GSM1327234_TM-164-13R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101767" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327234-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327235">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF wt 5</Title>
+    <Accession database="GEO">GSM1327235</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC without a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-509-11R
+Gene expression data from PTC without a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327235/suppl/GSM1327235_TM-509-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327235/suppl/GSM1327235_TM-509-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101768" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327235-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327236">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF wt 6</Title>
+    <Accession database="GEO">GSM1327236</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC without a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-556-10R
+Gene expression data from PTC without a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327236/suppl/GSM1327236_TM-556-10R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327236/suppl/GSM1327236_TM-556-10R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101777" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327236-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327237">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF wt 7</Title>
+    <Accession database="GEO">GSM1327237</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC without a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-908-12R
+Gene expression data from PTC without a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327237/suppl/GSM1327237_TM-908-12R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327237/suppl/GSM1327237_TM-908-12R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101775" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327237-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327238">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF wt 8</Title>
+    <Accession database="GEO">GSM1327238</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC without a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-919-12R
+Gene expression data from PTC without a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327238/suppl/GSM1327238_TM-919-12R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327238/suppl/GSM1327238_TM-919-12R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101776" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327238-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327239">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF wt 9</Title>
+    <Accession database="GEO">GSM1327239</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC without a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-993-11R
+Gene expression data from PTC without a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327239/suppl/GSM1327239_TM-993-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327239/suppl/GSM1327239_TM-993-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101769" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327239-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327240">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-07-27</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF wt 10</Title>
+    <Accession database="GEO">GSM1327240</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC without a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-1039-11R
+Gene expression data from PTC without a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327240/suppl/GSM1327240_TM-1039-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327240/suppl/GSM1327240_TM-1039-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM1622948" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327240-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327241">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF wt 11</Title>
+    <Accession database="GEO">GSM1327241</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC without a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-1098-11R
+Gene expression data from PTC without a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327241/suppl/GSM1327241_TM-1098-09R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327241/suppl/GSM1327241_TM-1098-09R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101779" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327241-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327242">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF mut 1</Title>
+    <Accession database="GEO">GSM1327242</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAFmutant
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC with a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-98-10R
+Gene expression data from PTC with a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327242/suppl/GSM1327242_TM-98-10R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327242/suppl/GSM1327242_TM-98-10R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101762" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327242-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327243">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF mut 2</Title>
+    <Accession database="GEO">GSM1327243</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAFmutant
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC with a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-131-10R
+Gene expression data from PTC with a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327243/suppl/GSM1327243_TM-131-10R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327243/suppl/GSM1327243_TM-131-10R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101763" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327243-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327244">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF mut 3</Title>
+    <Accession database="GEO">GSM1327244</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAFmutant
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC with a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-155-12R
+Gene expression data from PTC with a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327244/suppl/GSM1327244_TM-155-12R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327244/suppl/GSM1327244_TM-155-12R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101772" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327244-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327245">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-07-27</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF mut 4</Title>
+    <Accession database="GEO">GSM1327245</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAFmutant
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC with a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-187-11R
+Gene expression data from PTC with a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327245/suppl/GSM1327245_TM-187-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327245/suppl/GSM1327245_TM-187-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM1622950" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327245-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327246">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF mut 5</Title>
+    <Accession database="GEO">GSM1327246</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAFmutant
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC with a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-197-12R
+Gene expression data from PTC with a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327246/suppl/GSM1327246_TM-197-12R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327246/suppl/GSM1327246_TM-197-12R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101770" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327246-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327247">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2016-06-06</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF mut 6</Title>
+    <Accession database="GEO">GSM1327247</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAFmutant
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC with a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-279-08R
+Gene expression data from PTC with a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327247/suppl/GSM1327247_TM-279-08R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327247/suppl/GSM1327247_TM-279-08R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM2188827" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327247-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327248">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-07-27</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF mut 7</Title>
+    <Accession database="GEO">GSM1327248</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAFmutant
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC with a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-602-11R
+Gene expression data from PTC with a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327248/suppl/GSM1327248_TM-602-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327248/suppl/GSM1327248_TM-602-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM1622951" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327248-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327249">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF mut 8</Title>
+    <Accession database="GEO">GSM1327249</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAFmutant
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC with a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-681-11R
+Gene expression data from PTC with a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327249/suppl/GSM1327249_TM-681-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327249/suppl/GSM1327249_TM-681-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101771" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327249-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327250">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-07-27</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF mut 9</Title>
+    <Accession database="GEO">GSM1327250</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAFmutant
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC with a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-824-12R
+Gene expression data from PTC with a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327250/suppl/GSM1327250_TM-824-12R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327250/suppl/GSM1327250_TM-824-12R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM1622952" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327250-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327251">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF mut 10</Title>
+    <Accession database="GEO">GSM1327251</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAFmutant
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC with a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-827-12R
+Gene expression data from PTC with a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327251/suppl/GSM1327251_TM-827-12R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327251/suppl/GSM1327251_TM-827-12R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101764" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327251-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327252">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF mut 11</Title>
+    <Accession database="GEO">GSM1327252</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAFmutant
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC with a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-857-12R
+Gene expression data from PTC with a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327252/suppl/GSM1327252_TM-857-12R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327252/suppl/GSM1327252_TM-857-12R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327252-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327253">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-07-27</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF mut 12</Title>
+    <Accession database="GEO">GSM1327253</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAFmutant
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC with a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-892-11R
+Gene expression data from PTC with a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327253/suppl/GSM1327253_TM-892-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327253/suppl/GSM1327253_TM-892-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM1622953" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327253-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327254">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF mut 13</Title>
+    <Accession database="GEO">GSM1327254</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAFmutant
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC with a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-1064-11R
+Gene expression data from PTC with a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327254/suppl/GSM1327254_TM-1064-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327254/suppl/GSM1327254_TM-1064-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101773" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327254-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327255">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2019-09-30</Last-Update-Date>
+    </Status>
+    <Title>PTC BRAF mut 14</Title>
+    <Accession database="GEO">GSM1327255</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>PTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAFmutant
+      </Characteristics>
+      <Characteristics tag="tissue">
+PTC with a BRAF mutation
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-1152-12R
+Gene expression data from PTC with a BRAF mutation
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327255/suppl/GSM1327255_TM-1152-12R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327255/suppl/GSM1327255_TM-1152-12R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4101765" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327255-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327256">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>TN 1</Title>
+    <Accession database="GEO">GSM1327256</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>normal thyroid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+not determined
+      </Characteristics>
+      <Characteristics tag="tissue">
+normal thyroid tissue
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TN-157-12R
+Gene expression data from normal thyroid tissue
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327256/suppl/GSM1327256_TN-157-12R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327256/suppl/GSM1327256_TN-157-12R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327256-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327257">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>TN 2</Title>
+    <Accession database="GEO">GSM1327257</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>normal thyroid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+not determined
+      </Characteristics>
+      <Characteristics tag="tissue">
+normal thyroid tissue
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TN-247-13R
+Gene expression data from normal thyroid tissue
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327257/suppl/GSM1327257_TN-247-13R-THY_HuGene-1_0-st-v1_2.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327257/suppl/GSM1327257_TN-247-13R-THY_HuGene-1_0-st-v1_2.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327257-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327258">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>TN 3</Title>
+    <Accession database="GEO">GSM1327258</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>normal thyroid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+not determined
+      </Characteristics>
+      <Characteristics tag="tissue">
+normal thyroid tissue
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TN-720-11R
+Gene expression data from normal thyroid tissue
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327258/suppl/GSM1327258_TN-720-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327258/suppl/GSM1327258_TN-720-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327258-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327259">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>TN 4</Title>
+    <Accession database="GEO">GSM1327259</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>normal thyroid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+not determined
+      </Characteristics>
+      <Characteristics tag="tissue">
+normal thyroid tissue
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TN-726-11R
+Gene expression data from normal thyroid tissue
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327259/suppl/GSM1327259_TN-726-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327259/suppl/GSM1327259_TN-726-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327259-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327260">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>TN 5</Title>
+    <Accession database="GEO">GSM1327260</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>normal thyroid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+not determined
+      </Characteristics>
+      <Characteristics tag="tissue">
+normal thyroid tissue
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TN-769-11R
+Gene expression data from normal thyroid tissue
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327260/suppl/GSM1327260_TN-769-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327260/suppl/GSM1327260_TN-769-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327260-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327261">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>TN 6</Title>
+    <Accession database="GEO">GSM1327261</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>normal thyroid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+not determined
+      </Characteristics>
+      <Characteristics tag="tissue">
+normal thyroid tissue
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TN-879-11R
+Gene expression data from normal thyroid tissue
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327261/suppl/GSM1327261_TN-879-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327261/suppl/GSM1327261_TN-879-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327261-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327262">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>TN 7</Title>
+    <Accession database="GEO">GSM1327262</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>normal thyroid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+not determined
+      </Characteristics>
+      <Characteristics tag="tissue">
+normal thyroid tissue
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TN-1109-11R
+Gene expression data from normal thyroid tissue
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327262/suppl/GSM1327262_TN-1109-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327262/suppl/GSM1327262_TN-1109-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327262-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327263">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>FA 1</Title>
+    <Accession database="GEO">GSM1327263</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>FA histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+not determined
+      </Characteristics>
+      <Characteristics tag="tissue">
+FA
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-116-12R
+Gene expression data from FA
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327263/suppl/GSM1327263_TM-116-12R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327263/suppl/GSM1327263_TM-116-12R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327263-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327264">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>FA 2</Title>
+    <Accession database="GEO">GSM1327264</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>FA histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+not determined
+      </Characteristics>
+      <Characteristics tag="tissue">
+FA
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-214-09R
+Gene expression data from FA
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327264/suppl/GSM1327264_TM-214-09R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327264/suppl/GSM1327264_TM-214-09R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327264-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327265">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>FA 3</Title>
+    <Accession database="GEO">GSM1327265</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>FA histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+not determined
+      </Characteristics>
+      <Characteristics tag="tissue">
+FA
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-269-11R
+Gene expression data from FA
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327265/suppl/GSM1327265_TM-269-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327265/suppl/GSM1327265_TM-269-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327265-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327266">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>FA 4</Title>
+    <Accession database="GEO">GSM1327266</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>FA histology variant Huerthle cell</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+not determined
+      </Characteristics>
+      <Characteristics tag="tissue">
+FA
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-601-11R
+Gene expression data from FA
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327266/suppl/GSM1327266_TM-601-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327266/suppl/GSM1327266_TM-601-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327266-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327267">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>FA 5</Title>
+    <Accession database="GEO">GSM1327267</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>FA histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+not determined
+      </Characteristics>
+      <Characteristics tag="tissue">
+FA
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-1163-11R
+Gene expression data from FA
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327267/suppl/GSM1327267_TM-1163-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327267/suppl/GSM1327267_TM-1163-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327267-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327268">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>FA 6</Title>
+    <Accession database="GEO">GSM1327268</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>FA histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+not determined
+      </Characteristics>
+      <Characteristics tag="tissue">
+FA
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-2647-10R
+Gene expression data from FA
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327268/suppl/GSM1327268_TM-2647-10R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327268/suppl/GSM1327268_TM-2647-10R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327268-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327269">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>FA 7</Title>
+    <Accession database="GEO">GSM1327269</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>FA histology variant Huerthle cell</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+not determined
+      </Characteristics>
+      <Characteristics tag="tissue">
+FA
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-110-11R
+Gene expression data from FA
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327269/suppl/GSM1327269_TM-110-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327269/suppl/GSM1327269_TM-110-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327269-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327270">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>FVPTC 1</Title>
+    <Accession database="GEO">GSM1327270</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>FVPTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+FVPTC
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-134-10R
+Gene expression data from FVPTC
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327270/suppl/GSM1327270_TM-134-10R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327270/suppl/GSM1327270_TM-134-10R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327270-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327271">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2016-06-06</Last-Update-Date>
+    </Status>
+    <Title>FVPTC 2</Title>
+    <Accession database="GEO">GSM1327271</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>FVPTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+FVPTC
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-301-12R
+Gene expression data from FVPTC
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327271/suppl/GSM1327271_TM-301-12R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327271/suppl/GSM1327271_TM-301-12R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM2188828" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327271-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327272">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>FVPTC 3</Title>
+    <Accession database="GEO">GSM1327272</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>FVPTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+FVPTC
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-557-13R
+Gene expression data from FVPTC
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327272/suppl/GSM1327272_TM-557-13R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327272/suppl/GSM1327272_TM-557-13R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327272-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327273">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-07-27</Last-Update-Date>
+    </Status>
+    <Title>FVPTC 4</Title>
+    <Accession database="GEO">GSM1327273</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>FVPTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+FVPTC
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-989-11R
+Gene expression data from FVPTC
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327273/suppl/GSM1327273_TM-989-11R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327273/suppl/GSM1327273_TM-989-11R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM1622955" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327273-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327274">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>FVPTC 5</Title>
+    <Accession database="GEO">GSM1327274</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>FVPTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+FVPTC
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-1188-12R
+Gene expression data from FVPTC
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327274/suppl/GSM1327274_TM-1188-12R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327274/suppl/GSM1327274_TM-1188-12R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327274-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1327275">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2015-02-16</Last-Update-Date>
+    </Status>
+    <Title>FVPTC 6</Title>
+    <Accession database="GEO">GSM1327275</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>FVPTC histology</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="braf status">
+BRAF wild type
+      </Characteristics>
+      <Characteristics tag="tissue">
+FVPTC
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA from biospecimens was extracted using the Quagen RNeasy mini kit according to the manufacturer's instructions and integrity of RNA was checked using the Agilent Bioanalyzer.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNAs were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 6 ug of cDNA were hybridized for 17 hr at 45C on GeneChip HuGene-1.0-st arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+    </Scan-Protocol>
+    <Description>
+Sample name: TM-2646-10R
+Gene expression data from FVPTC
+    </Description>
+    <Data-Processing>
+Data were generated using the Affymetrix Expression Console Software using Affymetrix default analysis settings. Data were RMA normalized and analyzed with Partek Genomics Suite 6.5.
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327275/suppl/GSM1327275_TM-2646-10R-THY_HuGene-1_0-st-v1_.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1327nnn/GSM1327275/suppl/GSM1327275_TM-2646-10R-THY_HuGene-1_0-st-v1_.rma.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA normalized signal</Description>
+      </Column>
+    <External-Data rows="33252">
+GSM1327275-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Series iid="GSE54958">
+    <Status database="GEO">
+      <Submission-Date>2014-02-12</Submission-Date>
+      <Release-Date>2015-02-16</Release-Date>
+      <Last-Update-Date>2020-07-13</Last-Update-Date>
+    </Status>
+    <Title>Expression profiling in proliferative thyroid lesions of different histologies and normal thyroid tissue</Title>
+    <Accession database="GEO">GSE54958</Accession>
+    <Pubmed-ID>25923053</Pubmed-ID>
+    <Pubmed-ID>32603365</Pubmed-ID>
+    <Summary>
+Experiment a) Establishment of expression profiles in conventional papillary thyroid carcinomas (PTCs) with a BRAF mutation vs. PTCs without a BRAF mutation and using normal thyroid (TN) specimens as reference.
+Experiment b) Establishment of expression profiles in follicular adenomas (FAs) of the thyroid and follicular variant of papillary thyroid carcinomas (FVPTCs).
+    </Summary>
+    <Overall-Design>
+We extracted DNA from specimens and performed mutational analysis in malignant lesions and extracted RNA that was processed and hybridized to Affymetrix microarrays.
+    </Overall-Design>
+    <Type>Expression profiling by array</Type>
+    <Contributor-Ref ref="contrib1" position="1" />
+    <Contributor-Ref ref="contrib3" position="2" />
+    <Contact-Ref ref="contrib1" />
+    <Sample-Ref ref="GSM1327231" />
+    <Sample-Ref ref="GSM1327232" />
+    <Sample-Ref ref="GSM1327233" />
+    <Sample-Ref ref="GSM1327234" />
+    <Sample-Ref ref="GSM1327235" />
+    <Sample-Ref ref="GSM1327236" />
+    <Sample-Ref ref="GSM1327237" />
+    <Sample-Ref ref="GSM1327238" />
+    <Sample-Ref ref="GSM1327239" />
+    <Sample-Ref ref="GSM1327240" />
+    <Sample-Ref ref="GSM1327241" />
+    <Sample-Ref ref="GSM1327242" />
+    <Sample-Ref ref="GSM1327243" />
+    <Sample-Ref ref="GSM1327244" />
+    <Sample-Ref ref="GSM1327245" />
+    <Sample-Ref ref="GSM1327246" />
+    <Sample-Ref ref="GSM1327247" />
+    <Sample-Ref ref="GSM1327248" />
+    <Sample-Ref ref="GSM1327249" />
+    <Sample-Ref ref="GSM1327250" />
+    <Sample-Ref ref="GSM1327251" />
+    <Sample-Ref ref="GSM1327252" />
+    <Sample-Ref ref="GSM1327253" />
+    <Sample-Ref ref="GSM1327254" />
+    <Sample-Ref ref="GSM1327255" />
+    <Sample-Ref ref="GSM1327256" />
+    <Sample-Ref ref="GSM1327257" />
+    <Sample-Ref ref="GSM1327258" />
+    <Sample-Ref ref="GSM1327259" />
+    <Sample-Ref ref="GSM1327260" />
+    <Sample-Ref ref="GSM1327261" />
+    <Sample-Ref ref="GSM1327262" />
+    <Sample-Ref ref="GSM1327263" />
+    <Sample-Ref ref="GSM1327264" />
+    <Sample-Ref ref="GSM1327265" />
+    <Sample-Ref ref="GSM1327266" />
+    <Sample-Ref ref="GSM1327267" />
+    <Sample-Ref ref="GSM1327268" />
+    <Sample-Ref ref="GSM1327269" />
+    <Sample-Ref ref="GSM1327270" />
+    <Sample-Ref ref="GSM1327271" />
+    <Sample-Ref ref="GSM1327272" />
+    <Sample-Ref ref="GSM1327273" />
+    <Sample-Ref ref="GSM1327274" />
+    <Sample-Ref ref="GSM1327275" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE54nnn/GSE54958/suppl/GSE54958_RAW.tar
+    </Supplementary-Data>
+    <Relation type="BioProject" target="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA238145" />
+  </Series>
+
+</MINiML>
