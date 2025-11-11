@@ -1,0 +1,24 @@
+{
+    "total_samples": 320,
+    "total_species": 964,
+    "menopausal_status_groups": [
+        "pre",
+        "post",
+        "going_through"
+    ],
+    "samples_per_group": {
+        "post": 174,
+        "pre": 118,
+        "going_through": 28
+    },
+    "age_summary": {
+        "count": 320.0,
+        "mean": 54.128125,
+        "std": 14.776468931747822,
+        "min": 19.0,
+        "25%": 42.0,
+        "50%": 59.0,
+        "75%": 65.0,
+        "max": 80.0
+    }
+}

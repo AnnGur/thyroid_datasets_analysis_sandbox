@@ -1,0 +1,14 @@
+,total_samples,menopausal_groups,age_summary,species_count,abundance_summary
+post,320,174.0,,964,
+pre,320,118.0,,964,
+going_through,320,28.0,,964,
+count,320,,320.0,964,
+mean,320,,54.128125,964,
+std,320,,14.776468931747822,964,
+min,320,,19.0,964,
+25%,320,,42.0,964,
+50%,320,,59.0,964,
+75%,320,,65.0,964,
+max,320,,80.0,964,
+mean_per_sample,320,,,964,99.83428590625
+total_reads,320,,,964,31946.97149

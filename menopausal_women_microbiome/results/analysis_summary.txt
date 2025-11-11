@@ -1,0 +1,19 @@
+Microbiome Analysis Summary
+=========================
+
+Sample Information:
+Total samples: 320
+Menopausal groups:
+  post: 174
+  pre: 118
+  going_through: 28
+
+Diversity Analysis:
+Significant differences between menopausal groups:
+  shannon: p = 0.9427
+  simpson: p = 0.7469
+  richness: p = 0.0000
+
+Pathway Analysis:
+Total pathways analyzed: 5
+Significant pathways: 4

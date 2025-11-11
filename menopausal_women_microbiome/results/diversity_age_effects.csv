@@ -1,0 +1,3 @@
+,shannon,simpson,richness
+correlation,"{'rho': np.float64(0.015703397579212682), 'p_value': np.float64(0.779608788592087)}","{'rho': np.float64(0.0030736389617778805), 'p_value': np.float64(0.9563233817318921)}","{'rho': np.float64(0.47334759101052454), 'p_value': np.float64(2.8410728286115523e-19)}"
+regression,"{'coefficient': np.float64(0.0013690502861482335), 'p_value': np.float64(0.4122483966051612), 'r_squared': np.float64(0.002115259187529417)}","{'coefficient': np.float64(0.00028682016355233413), 'p_value': np.float64(0.35551691280973385), 'r_squared': np.float64(0.002685100604428947)}","{'coefficient': np.float64(0.6994034024361984), 'p_value': np.float64(4.612153856270838e-21), 'r_squared': np.float64(0.24371410937152904)}"

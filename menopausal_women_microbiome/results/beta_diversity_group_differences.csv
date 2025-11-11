@@ -1,0 +1,8 @@
+,pairwise_tests,group_distances,age_effects
+post vs pre,"{'statistic': np.float64(490636701.0), 'p_value': np.float64(2.2359420385099127e-62), 'mean_between_distance': np.float64(0.7294483654537449), 'mean_within_distance1': np.float64(0.7045746660994334), 'mean_within_distance2': np.float64(0.7228535027704952)}",,
+going_through vs pre,"{'statistic': np.float64(24704662.0), 'p_value': np.float64(0.13178323654815904), 'mean_between_distance': np.float64(0.7281392590997151), 'mean_within_distance1': np.float64(0.6780381417627718), 'mean_within_distance2': np.float64(0.7228535027704952)}",,
+going_through vs post,"{'statistic': np.float64(75654280.0), 'p_value': np.float64(0.9906606132197975), 'mean_between_distance': np.float64(0.7065697828289873), 'mean_within_distance1': np.float64(0.6780381417627718), 'mean_within_distance2': np.float64(0.7045746660994334)}",,
+pre,,"{'mean': np.float64(0.7228535027704952), 'std': np.float64(0.1315208992620141), 'median': np.float64(0.7275210145478723)}",
+post,,"{'mean': np.float64(0.7045746660994334), 'std': np.float64(0.12010233167931005), 'median': np.float64(0.7073627733420413)}",
+going_through,,"{'mean': np.float64(0.6780381417627718), 'std': np.float64(0.1637202084476042), 'median': np.float64(0.6965250479908809)}",
+correlation,,,"{'correlation': np.float64(0.0990583453725734), 'p_value': np.float64(1.8363739781716555e-111)}"
