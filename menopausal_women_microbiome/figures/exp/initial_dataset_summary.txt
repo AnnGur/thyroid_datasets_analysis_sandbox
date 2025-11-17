@@ -1,0 +1,24 @@
+Initial Dataset Summary
+=====================
+
+Total samples menopausal status: 320
+Total samples non-menopausal status: 238
+Total species menopausal group: 964
+Total species non-menopausal group: 646
+
+Menopausal status groups: pre, post, going_through
+
+Samples per group:
+  post: 174
+  pre: 118
+  going_through: 28
+
+Age summary:
+  count: 320.00
+  mean: 54.13
+  std: 14.78
+  min: 19.00
+  25%: 42.00
+  50%: 59.00
+  75%: 65.00
+  max: 80.00
